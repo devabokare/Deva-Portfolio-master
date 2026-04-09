@@ -349,12 +349,9 @@ main {
   background: var(--onyx);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
-  width: fit-content;
-  padding: 5px 12px;
+  width: max-content;
+  padding: 3px 12px;
   border-radius: 8px;
-  text-align: center;
-  line-height: 1.5;
-  margin: auto;
 }
 
 .info_more-btn {
