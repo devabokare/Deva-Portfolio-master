@@ -4,10 +4,10 @@
 
 // Roles for the hero typewriter animation
 export const typewriterRoles = [
-  'Software Developer Engineer',
-  'CTO',
-  'Full Stack Developer',
-  'Web Architect',
+  'Software Development Engineer',
+  'CTO @ LiftupLabs LLP',
+  'Full Stack Architect',
+  'SCADA & Automation Developer',
 ]
 
 // Stats for the hero stats row
@@ -74,8 +74,9 @@ export const personalInfo = {
   birthday: 'July 3, 2005',
   location: 'Hadapsar, Pune, India',
   bio: [
-    "I'm a Software Development Engineer (SDE) who designs, builds, tests, and maintains scalable software systems. I write clean, efficient code and collaborate with teams to develop reliable software solutions, using my knowledge of programming languages, algorithms, and modern software design to solve complex technical problems.",
-    "With experience leading technology strategy as CTO at Liftuplabs and engineering SCADA industrial automation systems, I bring a robust full-stack developer mindset. I enjoy turning challenging requirements into clean, performant, and user-friendly digital experiences.",
+    "I'm a Software Development Engineer (SDE) and Chief Technology Officer (CTO) based in Pune, India. I specialize in designing and engineering scalable web applications, enterprise ERP systems, and robust cloud architectures that solve complex real-world problems with clean, maintainable code.",
+    "My background uniquely bridges full-stack cloud software engineering and physical industrial automation. From directing technology strategy and leading engineering teams at LiftupLabs LLP to developing high-availability SCADA systems, standardized PLC logic, and robotic handling systems, I bring end-to-end technical execution and strong algorithmic problem-solving to every project.",
+    "Whether architecting fintech trading platforms with real-time financial charting, standardizing multi-tier database pipelines, or integrating AI-driven microservices, I take pride in delivering secure, performant, and future-proof digital solutions that create measurable business impact.",
   ],
   social: {
     whatsapp:  'https://wa.me/qr/ZYJZ3IJUR4LUC1',
@@ -87,24 +88,24 @@ export const personalInfo = {
 
 export const services = [
   {
-    icon: '/assets/images/icon-design.svg',
-    title: 'Web Design',
-    description: 'The most modern and high-quality design made at a professional level.',
+    icon: '/assets/images/icon-dev.svg',
+    title: 'Full-Stack & ERP Engineering',
+    description: 'Scalable multi-tenant web applications, enterprise cloud ERP systems, and high-performance REST APIs built with React, Node.js, and Django.',
   },
   {
-    icon: '/assets/images/icon-dev.svg',
-    title: 'Web Development',
-    description: 'High-quality development of sites at a professional level.',
+    icon: '/assets/images/icon-auto.svg',
+    title: 'Industrial Automation & SCADA',
+    description: 'Real-time SCADA supervisory dashboards, reusable PLC control logic (Structured Text), OPC UA telemetry, and robotic handling systems.',
+  },
+  {
+    icon: '/assets/images/icon-ai.svg',
+    title: 'AI & Machine Learning',
+    description: 'Integrating intelligent automation, predictive analytics, computer vision, and modern Generative AI into production web applications.',
   },
   {
     icon: '/assets/images/icon-app.svg',
-    title: 'Mobile Apps',
-    description: 'Professional development of applications for iOS and Android.',
-  },
-  {
-    icon: '/assets/images/icon-photo.svg',
-    title: 'Photography',
-    description: 'I make high-quality photos of any category at a professional level.',
+    title: 'Fintech & Cloud Systems',
+    description: 'Dynamic financial platforms with real-time candlestick charts, high-volume CRUD data pipelines, and Dockerized CI/CD cloud deployments.',
   },
 ]
 
@@ -180,12 +181,12 @@ export const experience = [
     link: 'https://liftuplabs.in/',
     period: '01/2025 – Present',
     points: [
-      'Lead technology strategy, software architecture, and product development.',
-      'Design and develop scalable web applications, ERP systems, and AI-powered solutions.',
-      'Manage full-stack development, REST APIs, databases, and cloud deployments.',
-      'Lead the engineering team, conduct code reviews, and mentor developers.',
-      'Implement DevOps practices using Git, Docker, Nginx, Cloudflare, PM2, and CI/CD.',
-      'Collaborate with stakeholders to deliver secure, scalable, and innovative technology solutions.',
+      'Lead technology strategy, software architecture, and product development across all core platforms.',
+      'Design and develop scalable web applications, enterprise ERP systems, and AI-powered solutions.',
+      'Manage full-stack development, robust REST APIs, high-throughput databases, and cloud deployments.',
+      'Lead the engineering team, establish architectural best practices, conduct code reviews, and mentor developers.',
+      'Implement DevOps practices using Git, Docker, Nginx, Cloudflare, PM2, and automated CI/CD pipelines.',
+      'Collaborate with stakeholders to deliver secure, scalable, and innovative enterprise solutions.',
     ],
   },
   {
@@ -193,9 +194,9 @@ export const experience = [
     link: null,
     period: '01/2025 – 07/2025',
     points: [
-      'Built a stock market platform with trading charts and real-time class information.',
-      'Managed large numbers of client details, implementing CRUD activities for customer records.',
-      'Technologies: Python (Django), JavaScript | Database: SQLite.',
+      'Developed a high-performance stock market platform featuring real-time financial candlestick charts and live market indices.',
+      'Architected high-volume client data management systems, implementing secure CRUD operations for customer records and portfolios.',
+      'Engineered backend services and REST endpoints using Python (Django) and JavaScript with SQLite and relational databases.',
     ],
   },
 ]
@@ -273,67 +274,67 @@ export const awardsAndActivities = [
 export const projects = [
   {
     id: 1,
-    title: 'Student Identity System',
+    title: 'Industrial SCADA & Robotic Automation',
     category: 'applications',
-    image: '/assets/images/project-2.png',
+    image: '/assets/images/project-scada.jpg',
     link: '#',
     caseStudy: {
-      problem: 'Colleges and institutions face manual administration bottlenecks due to slow student identity verification and scattered offline records.',
-      approach: 'Built an automated verification system featuring live student record displays, quick search filters, and full CRUD operations.',
-      results: 'Streamlined student ID proof management and improved overall administration validation throughput.',
-      tech: ['HTML', 'CSS', 'JavaScript', 'Python', 'MongoDB'],
+      problem: 'Critical production lines suffered from heavy manual intervention, lack of real-time diagnostics, and suboptimal equipment effectiveness.',
+      approach: 'Engineered a centralized real-time SCADA dashboard interfacing with PLC controllers via OPC UA, standardized control logic modules, and automated robotic telemetry.',
+      results: 'Decreased manual intervention by 40%, improved overall equipment effectiveness (OEE) by 12%, and achieved a 99.9% uptime in multi-axis robotic handling.',
+      tech: ['SCADA', 'PLC / Structured Text', 'OPC UA', 'Python', 'MES Integration'],
     },
   },
   {
     id: 2,
-    title: 'I2School Learning System',
+    title: 'LiftupLabs Enterprise Cloud ERP',
     category: 'web development',
-    image: '/assets/images/project-8.jpg',
-    link: '#',
+    image: '/assets/images/project-liftuplabs.jpg',
+    link: 'https://liftuplabs.in/',
     caseStudy: {
-      problem: 'Modern educational institutions require interactive digital learning portals to bridge classrooms and remote education.',
-      approach: 'Engineered a learning system featuring comprehensive student and teacher dashboards, and a robust database for grade/profile management.',
-      results: 'Delivered secure student and teacher environments, boosting educational file and result tracking efficiency.',
-      tech: ['Python', 'Django', 'JavaScript', 'SQLite'],
+      problem: 'Enterprise teams faced severe operational friction due to disconnected legacy systems, manual record keeping, and lack of real-time insights.',
+      approach: 'Architected an all-in-one enterprise ERP platform with role-based dashboards, automated financial workflows, AI assistant widget, and scalable microservices.',
+      results: 'Streamlined cross-departmental operations, increased workflow throughput by 45%, and deployed reliable zero-downtime CI/CD container pipelines.',
+      tech: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL', 'Docker', 'CI/CD'],
     },
   },
   {
     id: 3,
-    title: 'Finance Visualizer',
+    title: 'Bluestock Fintech Trading Platform',
     category: 'web development',
-    image: '/assets/images/project-1.jpg',
+    image: '/assets/images/project-bluestock.jpg',
     link: '#',
     caseStudy: {
-      problem: 'Recruiters and clients struggle to find custom-tailored fintech solutions that present complex transactional data in a clean, highly understandable way.',
-      approach: 'Built a responsive dashboard leveraging custom chart engines, data-memoization to handle huge lists, and transaction categorization rules.',
-      results: 'A sleek finance visualizer presenting real-time trends, currency conversion rates, and instant PDF report exports.',
-      tech: ['React', 'Chart.js', 'Vite', 'TailwindCSS'],
+      problem: 'Traders and clients needed a responsive, clutter-free stock market interface with live candlestick analytics, fast queries, and reliable account records.',
+      approach: 'Built a dynamic fintech web application featuring interactive candlestick charts, real-time market data tickers, and secure client CRUD management.',
+      results: 'Delivered an intuitive trading dashboard managing thousands of client portfolios with sub-second chart response times and reliable data persistence.',
+      tech: ['Python (Django)', 'JavaScript', 'Chart.js', 'SQLite', 'REST APIs'],
     },
   },
   {
     id: 4,
-    title: 'College ERP',
-    category: 'web development',
-    image: '/assets/images/project-2.png',
+    title: 'Student Identity Verification System',
+    category: 'applications',
+    image: '/assets/images/project-student-identity.jpg',
     link: '#',
     caseStudy: {
-      problem: 'Colleges and institutions face administrative bottlenecks due to scattered data across multiple platforms, slow registration queues, and offline processing.',
-      approach: 'Created a centralized dashboard using Express, PostgreSQL, and React. Handled role-based authentication (student, faculty, admin) securely.',
-      results: 'Boosted academic file-management efficiency by 40% and simplified enrollment processes for thousands of student profiles.',
-      tech: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL'],
+      problem: 'Educational institutions faced administrative bottlenecks due to slow student verification, paper IDs, and scattered offline records.',
+      approach: 'Built an automated verification system featuring live student record displays, quick search filters, QR code verification, and full CRUD operations.',
+      results: 'Streamlined student ID proof management and improved overall administration validation throughput.',
+      tech: ['HTML5', 'CSS3', 'JavaScript', 'Python', 'MongoDB'],
     },
   },
   {
     id: 5,
-    title: 'Music Streamer',
-    category: 'applications',
-    image: '/assets/images/project-4.png',
+    title: 'I2School Digital Learning System',
+    category: 'web development',
+    image: '/assets/images/project-i2school.jpg',
     link: '#',
     caseStudy: {
-      problem: 'Users wanted a distraction-free audio platform with smooth playlist management and high-quality playback streams without high memory footprint.',
-      approach: 'Designed a lightweight audio player using Web Audio APIs, cached offline playback support, and a glassmorphic sidebar controller.',
-      results: 'Reduced RAM usage by 30% compared to typical music web players, achieving instant song switching and responsive audio waves.',
-      tech: ['HTML5 Audio', 'React', 'Framer Motion', 'MongoDB'],
+      problem: 'Modern educational institutions require interactive digital learning portals to bridge classrooms and remote education.',
+      approach: 'Engineered a learning system featuring comprehensive student and teacher dashboards, course modules, attendance logs, and a grade management database.',
+      results: 'Delivered secure student and teacher environments, boosting educational file and result tracking efficiency.',
+      tech: ['Python (Django)', 'JavaScript', 'SQLite', 'Bootstrap / CSS'],
     },
   },
 ]

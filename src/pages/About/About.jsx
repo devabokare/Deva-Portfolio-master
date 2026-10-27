@@ -129,8 +129,8 @@ export default function About() {
         >
           <Magnetic>
             <a
-              href="/Devrao_Bokare_Resume.pdf"
-              download="Devrao_Bokare_Resume.pdf"
+              href="/Devrao_Bokare.pdf"
+              download="Devrao_Bokare.pdf"
               className="btn-primary"
               aria-label="Download CV"
             >
@@ -153,6 +153,30 @@ export default function About() {
           <div className="stats-row">
             {stats.map((s, i) => (
               <CountStat key={i} {...s} index={i} />
+            ))}
+          </div>
+        </section>
+      </ScrollReveal>
+
+      {/* ════════════════════════════════════════════
+          ABOUT ME — in-depth bio & story
+          ════════════════════════════════════════════ */}
+      <ScrollReveal>
+        <section className="about-bio" style={{ marginBottom: '44px' }}>
+          <h2 className="section-title">About Me</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            {personalInfo.bio.map((paragraph, idx) => (
+              <p
+                key={idx}
+                style={{
+                  fontSize: '0.92rem',
+                  color: 'var(--text-secondary)',
+                  lineHeight: '1.85',
+                  margin: 0,
+                }}
+              >
+                {paragraph}
+              </p>
             ))}
           </div>
         </section>

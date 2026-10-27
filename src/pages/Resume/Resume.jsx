@@ -49,8 +49,8 @@ export default function Resume() {
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '32px' }}>
         <h2 className="page-title" style={{ marginBottom: 0 }}>Resume</h2>
         <a
-          href="/Devrao_Bokare_Resume.pdf"
-          download="Devrao_Bokare_Resume.pdf"
+          href="/Devrao_Bokare.pdf"
+          download="Devrao_Bokare.pdf"
           className="btn-primary"
           style={{ padding: '8px 16px', fontSize: '0.82rem', marginTop: '-4px', height: 'fit-content' }}
         >
